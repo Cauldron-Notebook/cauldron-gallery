@@ -1,0 +1,17 @@
+{
+  "author": "",
+  "id": "plotly-basics",
+  "name": "plotly-basics",
+  "naming_scheme": "S{{##}}-{{name}}.{{ext}}",
+  "steps": [
+    "S01-Introduction.md",
+    "S02-Load-Dataset.py",
+    "S03-Bar-Charts-Preamble.md",
+    "S04-Bar-Charts.py",
+    "S05-Bar-Charts-Advanced.py",
+    "S06-Scatter-Plots-Preamble.md",
+    "S07-Scatter-Plots.py"
+  ],
+  "summary": "",
+  "title": "Plotly-Basics"
+}
