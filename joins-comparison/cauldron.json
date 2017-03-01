@@ -1,0 +1,26 @@
+{
+  "author": "",
+  "id": "joins-comparison",
+  "library_folders": [
+    "libs"
+  ],
+  "name": "joins-comparison",
+  "naming_scheme": "S{{##}}-{{name}}.{{ext}}",
+  "steps": [
+    "S01-Introduction.md",
+    "S02-Load-Data.py",
+    "S03-Create-Database.py",
+    "S04-Table-Definitions.py",
+    "S05-Simple-Joins.md",
+    "S06-Simple-SQL-Join.py",
+    "S07-Simple-SQLAlchemy-Join.py",
+    "S08-Simple-Pandas-Join.py",
+    "S09-Advanced-Joins.md",
+    "S10-Advanced-SQL-Join.py",
+    "S11-Advanced-SQLAlchemy-Join.py",
+    "S12-Advanced-Pandas-Join.py",
+    "S13-Conclusions.md"
+  ],
+  "summary": "",
+  "title": "SQL vs SQLAlchemy vs Pandas Joins"
+}

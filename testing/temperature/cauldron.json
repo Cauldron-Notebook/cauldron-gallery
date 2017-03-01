@@ -1,0 +1,18 @@
+{
+  "author": "",
+  "id": "Unit-Testing",
+  "name": "Unit-Testing",
+  "naming_scheme": "S{{##}}-{{name}}.{{ext}}",
+  "steps": [
+    "S01-Load-Data.py",
+    "S02-Overlap-Plot.py",
+    "S03-Time-Series-Plot.py",
+    "S04-ARIMA-Preamble.md",
+    "S05-ARIMA-Fitting.py",
+    "S06-Model-Selection.py",
+    "S07-Keep-Best-Models.py",
+    "S08-ARIMA-Prediction.py"
+  ],
+  "summary": "",
+  "title": "Unit-Testing"
+}

@@ -1,0 +1,15 @@
+{
+  "author": "",
+  "id": "step-testing-example",
+  "name": "step-testing-example",
+  "naming_scheme": "S{{##}}-{{name}}.{{ext}}",
+  "steps": [
+    "S01-Introduction.md",
+    "S02-Load-Data.py",
+    "S03-Plot-Data.py",
+    "S04-Process-Data.py",
+    "S05-Location-Relationship.py"
+  ],
+  "summary": "",
+  "title": "step-testing-example"
+}
