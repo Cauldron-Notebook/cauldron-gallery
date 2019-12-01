@@ -1,0 +1,12 @@
+{
+  "author": "",
+  "id": "hello-tests-pytest",
+  "name": "hello-tests-pytest",
+  "naming_scheme": "S{{##}}-{{name}}.{{ext}}",
+  "steps": [
+    "S01-Load-Data.py",
+    "S02-Create-Total.py"
+  ],
+  "summary": "",
+  "title": "hello-tests-pytest"
+}
