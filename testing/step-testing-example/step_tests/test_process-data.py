@@ -48,4 +48,4 @@ class TestProcessData(StepTestCase):
 
         # The lag should be zero because the ground sensor data is identical
         # to the aerial sensor data
-        self.assertEqual(df_results.ix[0]['lag'], 0)
+        self.assertEqual(df_results.iloc[0]['lag'], 0)

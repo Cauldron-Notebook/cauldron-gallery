@@ -35,7 +35,7 @@ def process(df: pd.DataFrame) -> dict:
     data frame.
     """
 
-    sensor_index = df.ix[0]['sensor_index']
+    sensor_index = df.iloc[0]['sensor_index']
 
     swing = int(0.5 * len(df))
     rmse_offsets = np.array(range(-swing, swing + 1))
