@@ -34,6 +34,8 @@ def process(df: pd.DataFrame) -> dict:
     dictionary containing those results to be an entry in the results
     data frame.
     """
+    if (df.empty):
+        return
 
     sensor_index = df.iloc[0]['sensor_index']
 
