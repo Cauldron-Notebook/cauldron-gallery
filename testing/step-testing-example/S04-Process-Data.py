@@ -34,8 +34,10 @@ def process(df: pd.DataFrame) -> dict:
     dictionary containing those results to be an entry in the results
     data frame.
     """
+    if (df.empty):
+        return
 
-    sensor_index = df.ix[0]['sensor_index']
+    sensor_index = df.iloc[0]['sensor_index']
 
     swing = int(0.5 * len(df))
     rmse_offsets = np.array(range(-swing, swing + 1))

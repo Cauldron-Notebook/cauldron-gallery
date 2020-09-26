@@ -19,7 +19,7 @@ def plot_sensor_data(df_sensor: pd.DataFrame):
 
     figure = Figure(
         title='Temperature Data for Sensor #{}'.format(
-            int(df_sensor.ix[0]['sensor_index'])
+            int(df_sensor.iloc[0]['sensor_index'])
         ),
         x_axis_label='Time of Day (Hours)',
         y_axis_label='Temperature (Celsius)'
